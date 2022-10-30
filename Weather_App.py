@@ -4,8 +4,8 @@ from PyQt5.QtGui import *
 import sys
 import requests, json
 
-"""Hard Coded Vars for Weather API"""
-api_key = "bbd984e09d3c5be4466d614d7a735c05"
+"""Hard Coded Vars for Weather API, api_key has been removed"""
+api_key = "api_key_for_weathermap"
 base_url = "http://api.openweathermap.org/data/2.5/weather?"
 city_name = "District of Columbia"
 complete_url = base_url + "appid=" + api_key + "&q=" + city_name
